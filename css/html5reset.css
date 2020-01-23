@@ -19,7 +19,7 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     
-    font-family: 'Lucida Grande', sans-serif;
+    font-family: "Lucida Grande", sans-serif;
     margin:0;
     padding:0;
     border:0;
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
     font-size: 30 px;
-    text-shadow: #808080, 5px, 5px, 2px;
+    text-shadow: 5px 5px 2px #808080;
 }
 
 body {
@@ -105,17 +105,24 @@ div{
 #yellow {
     background-color: yellow;
     text-align: right;
-    font-color: black;
 }
+
+
 
 #green {
     background-color: green
 }
 
-#green {
-    background-color: green;
+#yellow p {
+    color:black;
+    text-shadow: 5px 5px 2px #c7e2c7;
 }
 
+#yellow h2 {
+    text-shadow: 5px 5px 2px #c7e2c7;
+    color:black;
+    
+}
 footer {
     text-align: right;
     padding-right: 10px;

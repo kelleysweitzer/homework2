@@ -93,24 +93,24 @@ div{
 }
 
 #red {
-    background-color: red;
+    background-color: darkred;
     text-align: right;
 
 }
 
 #blue {
-    background-color: blue;
+    background-color: rgb(0, 0, 134);
 }
 
 #yellow {
-    background-color: yellow;
+    background-color: rgb(255, 255, 130);
     text-align: right;
 }
 
 
 
 #green {
-    background-color: green
+    background-color: rgb(16, 83, 16)
 }
 
 #yellow p {

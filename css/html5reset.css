@@ -18,37 +18,17 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-    
-    font-family: "Lucida Grande", sans-serif;
     margin:0;
     padding:0;
     border:0;
     outline:0;
     font-size:100%;
-    color:white;
-
     vertical-align:baseline;
     background:transparent;
 }
 
-h1 {
-    font-size:64px;
-    text-align:center;
-}
-
-h2 {
-    font-size: 30 px;
-    text-shadow: 5px 5px 2px #808080;
-}
-
 body {
     line-height:1;
-    background-color: black;
-}
-
-p {
-    font-size: 24 px;
-    padding-top: 20px;
 }
 
 article,aside,details,figcaption,figure,
@@ -78,56 +58,6 @@ a {
     background:transparent;
 }
 
-img {
-
-    display:block;
-    width: 525px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div{
-    padding: 25px;
-    min-height: 150px;
-}
-
-#red {
-    background-color: darkred;
-    text-align: right;
-
-}
-
-#blue {
-    background-color: rgb(0, 0, 134);
-}
-
-#yellow {
-    background-color: rgb(255, 255, 130);
-    text-align: right;
-}
-
-
-
-#green {
-    background-color: rgb(16, 83, 16)
-}
-
-#yellow p {
-    color:black;
-    text-shadow: 5px 5px 2px #c7e2c7;
-}
-
-#yellow h2 {
-    text-shadow: 5px 5px 2px #c7e2c7;
-    color:black;
-    
-}
-footer {
-    text-align: right;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
 /* change colours to suit your needs */
 ins {
     background-color:#ff9;

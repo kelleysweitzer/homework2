@@ -18,6 +18,8 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
+    
+    font-family: 'Lucida Grande', sans-serif;
     margin:0;
     padding:0;
     border:0;
@@ -25,7 +27,6 @@ time, mark, audio, video {
     font-size:100%;
     color:white;
 
-    font-family: 'Lucida Grande', sans-serif;
     vertical-align:baseline;
     background:transparent;
 }
@@ -86,7 +87,40 @@ img {
     margin-right: auto;
 }
 
+div{
+    padding: 25px;
+    min-height: 150px;
+}
 
+#red {
+    background-color: red;
+    text-align: right;
+
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+    text-align: right;
+    font-color: black;
+}
+
+#green {
+    background-color: green
+}
+
+#green {
+    background-color: green;
+}
+
+footer {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 /* change colours to suit your needs */
 ins {
     background-color:#ff9;
